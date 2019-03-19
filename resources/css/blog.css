@@ -1,0 +1,40 @@
+header{
+        background-image:  url("images/eloise-ambursley-650470-unsplash.jpg");
+            height: 70vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav ul > li, .move, .socials {
+    background-color: transparent;
+}
+header section{
+    background-color: transparent;
+}
+.move > li > a, header section > h2{
+        color: aliceblue;
+}
+ header section > p > a{
+    color: #e4e4e4;
+     text-decoration: none;
+}
+header section > h2{
+    font-size: 310%;
+}
+ header section > p{
+        color: #a9a9a9;
+     font-size: 120%;
+}
+/*------------------main-----------*/
+main section {
+    background-color: white;
+}
+main section div > div > a > img{
+    width: 100%;
+}
+main section div {
+    display: grid;
+    grid-template-columns: 2.5fr 0.3fr 1.7fr;
+    grid-template-rows: 2fr 1fr 1fr;
+}

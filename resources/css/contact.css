@@ -1,0 +1,98 @@
+.bg-img{
+        background-image: linear-gradient(rgba(0,0,0, .5), 
+            rgba(0,0,0,.5)), 
+            url("images/14th-January.jpg");
+            height: 300px;
+            color: grey;
+}
+.bg-img h2{
+     color: white;
+    font-size:300%;
+}
+.contact-section{
+    font-size: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    display: flex;
+    text-align: left
+}
+.contact-section > div > hr{
+   margin-left: 15px; 
+}
+.contact-section div p,.contact-section > div > h2{
+    padding: 15px; 
+}
+form{
+    margin-top: 20px;
+}
+input[type="text"],
+input[type="email"], textarea{
+    border-radius: 25px;
+    height: 50px;
+    width:42%;
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    margin: 10px;
+}
+textarea{
+    width:87.1%;
+    height: 40px;
+}
+input[type="submit"]{
+    letter-spacing: 1px;
+    color: aliceblue;
+    font-size: initial;
+    font-weight: 600;
+    height: 50px;
+    width:30%;
+}
+input[type="submit"]:hover{ 
+    border: none; 
+}
+textarea{
+     height: 200px;
+    border-radius: 25px;
+
+}
+/*the others*/
+.contact-section > div:nth-child(2){
+    margin-top: 20px
+}
+.contact-section > div > div{
+    border-bottom: 0.3px solid #dcdcdc;
+}
+.contact-section > div > div > div{
+    display: flex;
+}
+.contact-section > div > div > div img{
+    margin-top: 16px;
+    height: 16px;
+}
+h3{
+    margin-top: 30px;
+    font-size: 140%;
+    color: initial;
+    font-family: initial;
+}
+.contact-section > div > div > div > p a, .bg-img p > a {
+    text-decoration: none;
+    color: inherit;
+}
+.bg-img p > a{
+    color: #e4e4e4;
+}
+footer{
+        border-top: 0.3px solid #dcdcdc;
+
+}
+@media only screen and (max-width: 820px){
+    .contact-section{
+       flex-flow: column;
+    }
+    input[type="submit"]{
+        padding: 4%;
+        width:44%;
+        font-size: 80%;
+    }
+}
